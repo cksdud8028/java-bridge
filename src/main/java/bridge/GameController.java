@@ -19,4 +19,8 @@ public class GameController {
         return bridgeMaker.makeBridge(bridgeSize);
     }
 
+    public void startGame() {
+        BridgeGame bridgeGame = new BridgeGame(bridge);
+    }
+
 }

@@ -12,6 +12,7 @@ public class Application {
 
     public static void startGame() {
         GameController gameController = new GameController();
+        gameController.startGame();
     }
 
     private static void controlException() {
