@@ -16,3 +16,7 @@
 
 ### BridgeMaker
 - 다리를 만들 때 사용한다. - makeBridge()
+  - 랜덤 다리칸 생성하기. - makeRandom()
+
+### GameController
+- 인풋값 받아서 브릿지게임에 전달해서 결과 받고 그 값을 아웃풋에 넘겨서 출력 후 정상종료
